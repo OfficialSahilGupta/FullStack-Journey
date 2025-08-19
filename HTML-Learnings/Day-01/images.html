@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <!-- <img width="500px" src="https://images.pexels.com/photos/7909367/pexels-photo-7909367.jpeg" alt="def-image">
+    <picture>
+        <source media="(min-width: 650px)" src="https://images.pexels.com/photos/7909367/pexels-photo-7909367.jpeg"
+        srcset="https://images.pexels.com/photos/7909367/pexels-photo-7909367.jpeg">
+
+        <img width="500px" src="https://images.pexels.com/photos/7909367/pexels-photo-7909367.jpeg" alt="">
+
+        
+    </picture> -->
+    <!-- image map generator -->
+    <img src="ghibli image.jpg" usemap="#image-map">
+    <map name="image-map">
+        <area onclick="chest()" target="" alt="" title="" href="" coords="548,722,226" shape="circle">
+        <area onclick="face()" target="" alt="" title="" href="" coords="354,210,610,458" shape="rect">
+    </map>
+
+    <script>
+        function face(){
+            alert("clicked on face")
+        }
+
+        function chest(){
+            alert("U clicked on chest")
+        }
+
+    </script>
+</body>
+</html>
