@@ -31,3 +31,27 @@ const myFunc = function(){
 
 // console.log(typeof myFunc) // gives function
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// memory --> 2; Stack And Heap
+// Stack === Primitve ==> gives copy of the variable; Heap === Non-prmitve===> gives the exact original
+// which is known as call by value and call by reference respectively
+
+let myName = "random"
+let otherName = myName
+otherName = "random123" // example of call by value
+// console.log(myName);
+// console.log(otherName);
+
+// ===> we are changing the values in the copy of varibale so it's giving the modified varibale
+// ===> but the original remains same
+
+let userOne = {
+    email: "userName@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "random@gmail.com"
+// console.log(userOne.email);
+// console.log(userTwo.email);
+// ===> due to the call by reference the values are changed for both things
