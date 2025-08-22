@@ -14,3 +14,11 @@ const {courseInstructor: instructor} = course
 
 
 // +++++++++++++++++++++. API +++++++++++++++++++++++++++
+// {
+//     "name": "random",
+//     "courseName": "JS"
+//     "price": "free"
+// }
+
+// random user me api 
+// json formatter 
